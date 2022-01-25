@@ -1,28 +1,41 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
-.zigzag{
-    display: flex;
-    /* flex-direction: row-reverse; */
-}
+/* img */
 
 .img_dinero{
     width: 400px;
     margin: 2px;
 }
 
+/* Section */
+
+.zigzag{
+    display: flex;
+}
+
+/* Necesario trabajar en flex */
 .izquerda{
     flex-direction: row;
 }
 
+/* Necesario trabajar en flex */
 .derecha{
     flex-direction: row-reverse;
 }
 
+/* Newsletter */
 .newsletter{
     margin: 50px;
+    display: flex;
 }
 
-.newsletter form input[type="text"]{
+.newsletter form input{
     width: 500px;
+}
+
+/* Multicosas */
+
+.multicosas{
+    display: flex;
 }
