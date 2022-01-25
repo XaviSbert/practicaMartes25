@@ -8,6 +8,7 @@
 
 .img_dinero{
     width: 400px;
+    margin: 10px;
 }
 
 .izquerda{
@@ -19,5 +20,5 @@
 }
 
 .galeriaDeImg{
-    /* display: flex; */
+
 }
