@@ -8,7 +8,7 @@
 
 .img_dinero{
     width: 400px;
-    margin: 10px;
+    margin: 2px;
 }
 
 .izquerda{
@@ -19,6 +19,10 @@
     flex-direction: row-reverse;
 }
 
-.galeriaDeImg{
+.newsletter{
+    margin: 50px;
+}
 
+.newsletter form input{
+    width: 500px;
 }
