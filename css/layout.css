@@ -1,4 +1,19 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
+.zigzag{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
 
+.img_dinero{
+    width: 400px;
+}
+
+.izquerda{
+    flex-direction: row;
+}
+
+.derecha{
+    flex-direction: row-reverse;
+}
