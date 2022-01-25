@@ -17,3 +17,7 @@
 .derecha{
     flex-direction: row-reverse;
 }
+
+.galeriaDeImg{
+    /* display: flex; */
+}
