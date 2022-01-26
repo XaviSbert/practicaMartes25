@@ -1,41 +1,91 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
+/* BODY */
+body {
+  display: flex;
+  justify-content: center;
+}
+
+/* Contenedor */
+.contenedor {
+  width: 1366px;
+  padding: 0 20px;
+  background-color: lightgrey;
+  font-size: 1.125rem;
+  font-family: sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* img */
 
-.img_dinero{
-    width: 400px;
-    margin: 2px;
+.img {
+  margin: 10px;
+}
+
+.img_dinero {
+  width: 400px;
+  margin: 2px;
 }
 
 /* Section */
 
-.zigzag{
-    display: flex;
+section {
+  margin-bottom: 20px;
+}
+
+.variosZigzag {
+  width: 70%;
+}
+
+.zigzag {
+  display: flex;
 }
 
 /* Necesario trabajar en flex */
-.izquerda{
-    flex-direction: row;
+.izquerda {
+  flex-direction: row;
 }
 
 /* Necesario trabajar en flex */
-.derecha{
-    flex-direction: row-reverse;
+.derecha {
+  flex-direction: row-reverse;
+}
+
+/* Galería */
+
+.galeriaDeImg {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap; /*Colca los objetos uno al lado del otro, si queda sin espacio lo posiciona debajo*/
+}
+
+.galeriaDeImg img{
+    width: 25%;
+    padding: 5px;
+    margin: 0;
 }
 
 /* Newsletter */
-.newsletter{
-    margin: 50px;
-    display: flex;
+.newsletter {
+width: 100% ;
+padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  background-color: grey;
 }
 
-.newsletter form input{
-    width: 500px;
+.newsletter form input {
+  width: 500px;
 }
 
 /* Multicosas */
 
-.multicosas{
-    display: flex;
+.multicosas {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid red;
 }
